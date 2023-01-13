@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+class area
+{
+public:
+
+    void calarea(int a)
+    {
+        cout<<"Area of Square is : "<<a*a<< endl;
+    }
+
+    void calarea(int l, int b)
+    {
+        cout<<"Area of Rectangle is : "<<l*b<<endl;
+    }
+
+};
+
+int main()
+{
+    area obj;
+    obj.calarea(4,6);
+    obj.calarea(7);
+}              
